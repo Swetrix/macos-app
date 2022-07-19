@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B540A778288721250059E8E2 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B540A777288721250059E8E2 /* Webservice.swift */; };
 		B5E8749928862E96000EB191 /* macosappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E8749828862E96000EB191 /* macosappApp.swift */; };
 		B5E8749B28862E96000EB191 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E8749A28862E96000EB191 /* ContentView.swift */; };
 		B5E8749D28862E99000EB191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5E8749C28862E99000EB191 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B540A777288721250059E8E2 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		B5E8749528862E96000EB191 /* macosapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macosapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E8749828862E96000EB191 /* macosappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macosappApp.swift; sourceTree = "<group>"; };
 		B5E8749A28862E96000EB191 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B540A776288720F30059E8E2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B540A777288721250059E8E2 /* Webservice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		B5E8748C28862E96000EB191 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +105,7 @@
 		B5E8749728862E96000EB191 /* macosapp */ = {
 			isa = PBXGroup;
 			children = (
+				B540A776288720F30059E8E2 /* Services */,
 				B5E8749828862E96000EB191 /* macosappApp.swift */,
 				B5E8749A28862E96000EB191 /* ContentView.swift */,
 				B5E8749C28862E99000EB191 /* Assets.xcassets */,
@@ -261,6 +272,7 @@
 			files = (
 				B5E8749B28862E96000EB191 /* ContentView.swift in Sources */,
 				B5E8749928862E96000EB191 /* macosappApp.swift in Sources */,
+				B540A778288721250059E8E2 /* Webservice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
